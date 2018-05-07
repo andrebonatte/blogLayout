@@ -1,6 +1,6 @@
 # blogLayout
 Esse é um projeto usando como base o layout de um blog. 
-Para cria-lo utilizei o flexbox do css junto com Sass e Bootstrap resultando em uma sidebar fixa e uma area de conteudo com scroll. 
+Nele utilizei o flexbox do css junto com Sass e Bootstrap resultando em uma sidebar fixa e uma area de conteudo com scroll. 
 As imagens foram retiradas dos sites de free stock Pexels e Unsplash.
 
 ----
