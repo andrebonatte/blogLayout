@@ -1,0 +1,22 @@
+{
+  "name": "frontsetup",
+  "version": "1.0.0",
+  "description": "Pacote com as dependencias iniciais para criar um projeto frontend",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "André Bonatte",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies":{
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+    }
+}

@@ -1,0 +1,129 @@
+body {
+  background: url("../img/spaceTumblr.png");
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  box-shadow: inset 0, 0, 0, 100vh rgba(0, 0, 0, 0.6);
+  color: #fff;
+  overflow: hidden;
+  box-sizing: border-box; }
+
+@media only screen and (max-height: 500px) {
+  .cover {
+    display: none; } }
+
+.darkOverlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%; }
+
+@media only screen and (max-width: 900px) {
+  .wrapper {
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: auto; }
+  .container {
+    min-width: 100vw !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important; }
+  .container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important; }
+  .sidebar {
+    display: flex;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    flex: 100vw;
+    background-color: rgba(192, 192, 192, 0.3);
+    flex-direction: row;
+    justify-content: space-around;
+    /*Vertical*/
+    align-items: center;
+    /*Horizontal*/
+    text-align: center;
+    /*na quebra de linha o texto continua centralizado*/ }
+    .sidebar .cover, .sidebar .resumo {
+      display: none; }
+    .sidebar .iconArea .fa {
+      font-size: 1.3em; }
+      .sidebar .iconArea .fa:hover {
+        font-size: 1.5em; }
+    .sidebar .iconArea a {
+      text-decoration: none;
+      color: #fff; }
+  .content {
+    display: flex;
+    flex: 80vw;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    padding-right: 15vw;
+    padding-left: 15vw; }
+    .content .post {
+      margin-top: 10vh !important;
+      margin-bottom: 10vh !important; }
+      .content .post .card-img-top {
+        max-height: 390px !important; }
+      .content .post .post-content {
+        margin-top: 2em;
+        text-align: center; }
+    .content hr.lineBreak {
+      border: 1px dotted rgba(255, 255, 255, 0.4);
+      width: 60%; } }
+
+@media only screen and (min-width: 901px) {
+  .page {
+    overflow-y: auto; }
+  .wrapper {
+    display: flex;
+    justify-content: space-between; }
+    .wrapper .sidebarContainer {
+      flex: 16vw; }
+    .wrapper .sidebar {
+      border-left: 2px solid #fff;
+      border-right: 2px solid #fff;
+      background-color: rgba(192, 192, 192, 0.3);
+      position: fixed;
+      height: 100vh;
+      width: 16vw;
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      text-align: center; }
+      .wrapper .sidebar .blogTitle {
+        margin-top: 5vh; }
+      .wrapper .sidebar .iconArea {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; }
+        .wrapper .sidebar .iconArea .fa {
+          font-size: 1.3em; }
+          .wrapper .sidebar .iconArea .fa:hover {
+            font-size: 1.6em; }
+        .wrapper .sidebar .iconArea a {
+          text-decoration: none;
+          color: #fff; }
+    .wrapper .content .post:first-child {
+      margin-top: 0px !important; }
+    .wrapper .content {
+      flex: 50vw;
+      margin-left: 15vw;
+      margin-right: 5vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: auto; }
+      .wrapper .content .post {
+        margin-top: 10vh !important;
+        margin-bottom: 10vh !important; }
+        .wrapper .content .post .card-img-top {
+          max-height: 390px !important; }
+        .wrapper .content .post .post-content {
+          margin-top: 2em;
+          text-align: center; }
+    .wrapper hr.lineBreak {
+      border: 1px dotted rgba(255, 255, 255, 0.4);
+      width: 60%; } }
